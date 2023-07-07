@@ -1,0 +1,6 @@
+<!--pages/information/information.wxml-->
+<view>你好！</view>
+
+<view></view>
+<my-test max = "7"></my-test>
+<color-test></color-test>
