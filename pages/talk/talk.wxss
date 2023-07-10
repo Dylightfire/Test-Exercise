@@ -1,0 +1,150 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+}
+/*蟹老板发言*/
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.chat-messages {
+  height: 100%;
+  padding-bottom: 100rpx; /* 可选，根据需要微调底部留白 */
+  opacity: 1;
+  animation: fade-in 1s forwards;
+}
+.message-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30rpx;
+}
+.avatar {
+  width: 130rpx;
+  height: 130rpx;
+  margin-right: 10rpx;
+  border-radius: 50%;
+  opacity: 1;
+  animation: fade-in 1s forwards;
+}
+.robot-bubble {
+  position: relative;
+  margin-top: 18rpx;
+  display: inline-block;
+  min-height: 30rpx; /* 设置一个最小高度，确保对话框有一定高度 */
+  opacity: 1;
+  animation: fade-in 1s forwards;
+}
+.bubble-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -10rpx;
+  margin-top: 0rpx;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.robot-message {
+  padding: 25rpx;
+  color: red;
+  display: inline-block;
+  line-height: 1.5;
+  white-space: normal; /* 允许文字换行 */
+  word-break: break-all; /* 允许单词在行内换行 */
+  max-width: 90%; /* 设置最大宽度，以防止文字过长导致对话框过宽 */
+}
+.chat-content {
+  width: 85%;
+  margin-top: 60rpx; /* 可选，根据需要微调垂直位置 */
+}
+.message-container {
+  display: flex;
+  align-items: flex-start;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*按钮组件*/
+.component-1{
+  margin-top: -80rpx;
+  margin-left: 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*回复*/
+.return-message{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30rpx;
+}
+.user-avator{
+  width: 130rpx;
+  height: 130rpx;
+  margin-left: 0rpx; /* 将左边距设为 auto，使图像靠右对齐 */
+  border-radius: 50%;
+  opacity: 1;
+  animation: fade-in 1s forwards;
+}
+.user-bubble{
+  margin-left: auto; 
+  position: relative;
+  margin-top: 18rpx;
+  display: inline-block;
+  min-height: 30rpx;
+  opacity: 1;
+  animation: fade-in 1s forwards;
+}
+.user-bubble-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: -10rpx;
+  margin-top: 0rpx;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.user-message{
+  padding: 25rpx;
+  color: red;
+  display: inline-block;
+  line-height: 1.5;
+  white-space: normal;
+  word-break: break-all;
+  max-width: 90%;
+}
+
+/*菜单1*/
+.image-container {
+  position: relative;
+  margin-left: 0rpx;
+  width: 100%;
+  height: 450rpx; /* 设置容器的高度，根据实际情况调整 */
+}
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Recommend{
+  margin-top: 25rpx;
+}
+
+
+

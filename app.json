@@ -8,7 +8,8 @@
     "pages/information/information",
     "pages/knowledge/knowledge",
     "pages/robot/robot",
-    "pages/Login/Login"
+    "pages/talk/talk",
+    "pages/recommend_1/recommend_1"
   ],
   "plugins": {
     "chatbot": {
@@ -40,16 +41,22 @@
         "selectedIconPath": "/images/首页.png"
       },
       {
-        "pagePath": "pages/knowledge/knowledge",
-        "text": "知识",
-        "iconPath": "/images/知识.png",
-        "selectedIconPath": "/images/知识.png"
+        "pagePath": "pages/talk/talk",
+        "text": "蟹老板",
+        "iconPath": "/images/UI设计图片/蟹老板(1).png",
+        "selectedIconPath": "/images/UI设计图片/蟹老板(1).png"
       },
       {
         "pagePath": "pages/robot/robot",
         "text": "API",
         "iconPath": "/images/机器人_o.png",
         "selectedIconPath": "/images/机器人_o.png"
+      },
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "知识",
+        "iconPath": "/images/知识.png",
+        "selectedIconPath": "/images/知识.png"
       },
       {
         "pagePath": "pages/information/information",
@@ -59,6 +66,4 @@
       }
     ]
   }
-
-  
 }

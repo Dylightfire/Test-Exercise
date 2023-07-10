@@ -1,0 +1,22 @@
+.button-container {
+  position: relative;
+  width: 500rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-image {
+  width: 300%;
+  height: 100%;
+}
+
+.button-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 35rpx;
+  font-weight: bold;
+}
